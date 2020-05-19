@@ -1,0 +1,350 @@
+
+
+#cvbutton {
+  position: fixed;
+  width: 55.5px;
+  height: 60.65px;
+  left: 30px;
+  top: 425px;
+}
+
+#igbutton {
+  /* Instagram logo 3 */
+position: fixed;
+width: 55.5px;
+height: 60.65px;
+left: 30px;
+top: 175px;
+}
+
+#inbutton {
+  position: fixed;
+  width: 55.5px;
+  height: 60.65px;
+  left: 30px;
+  top: 300px
+}
+
+#homebutton {
+  position: fixed;
+  width: 55.5px;
+  height: 60.65px;
+  left: 30px; 
+  top: 550px;
+}
+
+
+/* tausta CSS */
+#tausta {
+position: relative;
+height: 600px;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 10%;
+margin-bottom: 10%;
+background-color: #D9D0C5;
+}
+
+/* Menu CSS */
+#menu {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  } 
+  
+  .valikko {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    top: 300px;
+    }
+  
+  .nappi {
+  width: 130px;
+  height: 35px;
+  background: #C4C4C4;
+  padding: 5px;
+  /* Otsikko 2 */
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #000000;
+  }
+
+header {
+/* Rectangle 15 */
+
+position: absolute;
+background:#B32F25;
+left: 15%;
+right: 40%;
+top: 20%;
+bottom: 62%;
+mix-blend-mode: normal;
+
+}
+
+.kontakti {
+  left: 30%;
+  right: 30%;
+}
+
+.linecontact{
+  position: absolute;
+  border: 1px solid black;
+  left: 30%;
+  right: 30%;
+  top: 40%;
+}
+
+h1 {
+  /* Otsikko 1 */
+position: relative;
+top: 12px;
+font-family: Libre Baskerville;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 35px;
+letter-spacing: 0.2em;
+text-align: center;
+
+color: #000000;
+}
+
+.line {
+  position: absolute;
+  left: 15%;
+  right: 40%;
+  top: 40%;
+  border: 1px solid black;
+}
+
+#eka {
+  position: relative;
+  width: 350px;
+  height: 480px;
+  margin-left: 65%;
+  top: 80px;
+}
+
+#welcome {
+position: relative;
+margin-left: 2%;
+margin-right: 35%;
+margin-top: -10%;
+font-family: Libre Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0.1em;
+text-align: center;
+
+}
+
+#projektiteksti {
+position: relative;
+margin-left: 2%;
+margin-right: 35%;
+margin-top: -10%;
+font-family: Libre Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0.1em;
+text-align: center;
+}
+
+#kontaktiteksti {
+  position: absolute;
+  margin-left: 2%;
+  margin-right: 35%;
+  margin-top: 475px;
+  margin-bottom: 10%;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+}
+
+.varjo {
+  box-shadow: 10px 10px 5px grey;
+}
+
+.nappivarjo {
+  box-shadow: 5px 5px 5px grey;
+}
+
+#alkunappi {
+/* Rectangle 19 */
+position: absolute;
+width: 130px;
+height: 35px;
+margin-left: 10%;
+top: 300px; 
+background: #C4C4C4;
+/* Otsikko 2 */
+font-family: Libre Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #000000;
+}
+
+#alkunappi:hover{
+  background-color: lightgrey;
+}
+
+#alkunappi2 {
+position: absolute;
+width: 130px;
+height: 35px;
+left: 250px;
+top: 300px;
+background: #C4C4C4;
+/* Otsikko 2 */
+font-family: Libre Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #000000;
+
+}
+
+#alkunappi2:hover {
+  background-color: lightgrey;
+}
+
+#alkunappi3 {
+position: absolute;
+width: 130px;
+height: 35px;
+left: 350px;
+top: 300px;
+background: #C4C4C4;
+/* Otsikko 2 */
+font-family: Libre Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #000000;
+}
+
+#alkunappi3:hover{
+  background-color: lightgrey;
+}
+
+
+
+/* projekti valilehti CSS */
+
+#projektit {
+  position: relative;
+  height: 600px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: 10px solid #B32F25;
+
+}
+
+#contact {
+  position: relative;
+  height: 600px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: 10px solid #B32F25;
+}
+#viikuna {
+  position: absolute;
+width: 100%;
+height: 100%;
+}
+#toka {
+  position: relative;
+  width: 350px;
+  height: 480px;
+  margin-left: 65%;
+  top: 80px;
+}
+
+
+@media screen and (max-width: 481px){
+
+  #menu {
+      z-index: 2;
+  }
+
+  #oikeapuoli {
+      margin-left: 0%;
+      z-index: 1;
+  }
+
+  .valikko {
+      display: flex;
+      width: fit-content;
+      flex-direction: column;
+      padding-right: 75%;
+      text-align: right;   
+  }
+
+  #tausta{
+      width: 100%;
+      height: auto;
+  }
+
+ #welcome {
+   width: 90%;
+ }
+
+  #kontaktiteksti {
+      width: 90%;
+  }
+
+  .valiobj {
+      background-color: white;
+  }
+  
+
+  #projektiteksti {
+      margin-right: 0%;
+  }
+      
+}
+
+
+
+
+
+
+
+
