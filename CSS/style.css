@@ -46,7 +46,7 @@ background-color: #D9D0C5;
 }
 
 /* Menu CSS */
-#menu {
+#men {
   display: flex;
   justify-content: space-between;
   position: absolute;
